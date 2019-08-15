@@ -2,6 +2,7 @@ package com.jparandag;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -16,7 +17,19 @@ public class ComparableTest
         //sortCollectionUsingSortMethod(students);
 
         //Using Comparator Interface
-        sortCollectionUsingComparator(students);
+        //sortCollectionUsingComparator(students);
+
+        //Using Java 8 features
+        //sortCollectionUsingJava8(students);
+
+        //Using Key Selector
+        //sortUsingKeySelectorAndComparatorVariant(students);
+
+        //Using reversed
+        //sortUsingComparatorReversed(students);
+
+        //Using Comparing Int
+        sortUsingComparingInt(students);
 
 
     }
@@ -64,6 +77,41 @@ public class ComparableTest
 
         StudentAgeComparator ageComparator = new StudentAgeComparator();
         System.out.println("Before Sorting : " + students);
+        Collections.sort(students, ageComparator);
+        System.out.println("After Sorting by Age : " + students);
+
+    }
+
+    private static void sortCollectionUsingJava8(List<Student> students){
+        System.out.println("Before Sorting : " + students);
+        Comparator<Student> studentNameComparator
+                = Comparator.comparing(Student::getName);
+        Collections.sort(students, studentNameComparator);
+        System.out.println("After Sorting by Name : " + students);
+
+    }
+
+    private static void sortUsingKeySelectorAndComparatorVariant(List<Student> students){
+        System.out.println("Before Sorting : " + students);
+        Comparator<Student> studentNameComparator =
+                Comparator.comparing( Student::getName, (s1, s2) -> { return s2.compareTo(s1); });
+        Collections.sort(students, studentNameComparator);
+        System.out.println("After Desc Sorting by Name : " + students);
+    }
+
+    private static void sortUsingComparatorReversed(List<Student> students){
+        System.out.println("Before Sorting : " + students);
+        Comparator<Student> studentNameComparator = Comparator.comparing(Student::getName);
+        Collections.sort(students, studentNameComparator);
+        System.out.println("After Asc Sorting by Name : " + students);
+        Comparator<Student> studentNameReversedComparator = studentNameComparator.reversed();
+        Collections.sort(students, studentNameReversedComparator);
+        System.out.println("After reversed Sorting by Name : " + students);
+    }
+
+    private static void sortUsingComparingInt(List<Student> students){
+        System.out.println("Before Sorting : " + students);
+        Comparator<Student> ageComparator = Comparator.comparing(Student::getAge);
         Collections.sort(students, ageComparator);
         System.out.println("After Sorting by Age : " + students);
 
