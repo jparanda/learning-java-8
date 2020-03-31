@@ -1,1 +1,1 @@
-Examples to leran Predicates in Java 8
+Examples to learn predicates in Java 8
