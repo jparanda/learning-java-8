@@ -1,0 +1,43 @@
+
+N
+squid:S106_"9Replace this use of System.out or System.err by a logger.(¢°ÝD
+bsquid:UnusedPrivateMethodU"=Remove this unused private "sortCollectionUsingJava8" method.(Ï¿ºô
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‰ªíÍùÿÿÿÿ
+O
+squid:S106j"9Replace this use of System.out or System.err by a logger.(ûŽÌ˜
+T
+squid:S106E"9Replace this use of System.out or System.err by a logger.(¸üÑÖúÿÿÿÿ
+N
+squid:S106J"9Replace this use of System.out or System.err by a logger.(¢°ÝD
+N
+squid:S106q"9Replace this use of System.out or System.err by a logger.(¢°ÝD
+gsquid:UnusedPrivateMethodH"BRemove this unused private "sortCollectionUsingComparator" method.(áÉÚ°
+O
+squid:S106c"9Replace this use of System.out or System.err by a logger.(«¤ü
+N
+squid:S106V"9Replace this use of System.out or System.err by a logger.(¢°ÝD
+gsquid:UnusedPrivateMethodB"BRemove this unused private "sortCollectionUsingSortMethod" method.(Ç£Ü
+N
+squid:S106O"9Replace this use of System.out or System.err by a logger.(¢°ÝD
+O
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(­ðÍ°
+O
+squid:S106L"9Replace this use of System.out or System.err by a logger.(ˆòØš
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(øŸöÃ
+jsquid:UnusedPrivateMethodf"@Remove this unused private "sortUsingComparatorReversed" method.(¦Œ •ÿÿÿÿÿ
+rsquid:UnusedPrivateMethod^"MRemove this unused private "sortUsingKeySelectorAndComparatorVariant" method.(ŽùÓ
+N
+squid:S106g"9Replace this use of System.out or System.err by a logger.(¢°ÝD
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(—¯Ìˆÿÿÿÿÿ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Â¾ ‡øÿÿÿÿ
+O
+squid:S106m"9Replace this use of System.out or System.err by a logger.(ÊÍš’
+hsquid:S1192C"RDefine a constant instead of duplicating this literal "Before Sorting : " 7 times.(¢°ÝD
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(±û
+O
+squid:S106t"9Replace this use of System.out or System.err by a logger.(­ðÍ°
+N
+squid:S106C"9Replace this use of System.out or System.err by a logger.(¢°ÝD
+O
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(Øõû›
+osquid:S1602a"SRemove useless curly braces around statement and then remove useless return keyword(«Ÿ†üÿÿÿÿ
