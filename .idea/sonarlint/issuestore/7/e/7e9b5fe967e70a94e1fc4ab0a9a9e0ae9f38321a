@@ -1,0 +1,35 @@
+
+l
+java:S1192"RDefine a constant instead of duplicating this literal "Before Sorting : " 7 times.(¢°İD8ú‚Ãï’.
+R	java:S106"9Replace this use of System.out or System.err by a logger.(¢°İD8ú‚Ãï’.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(¸üÑÖúÿÿÿÿ8ú‚Ãï’.
+R	java:S106"9Replace this use of System.out or System.err by a logger.(¢°İD8ú‚Ãï’.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ˆòØš8ú‚Ãï’.
+R	java:S106"9Replace this use of System.out or System.err by a logger.(¢°İD8ú‚Ãï’.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(­ğÍ°8ú‚Ãï’.
+R	java:S106"9Replace this use of System.out or System.err by a logger.(¢°İD8ú‚Ãï’.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Øõû›8ú‚Ãï’.
+R	java:S106"9Replace this use of System.out or System.err by a logger.(¢°İD8ú‚Ãï’.
+s
+java:S1602"SRemove useless curly braces around statement and then remove useless return keyword(«Ÿ†üÿÿÿÿ8ú‚Ãï’.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(«¤ü8ú‚Ãï’.
+R	java:S106"9Replace this use of System.out or System.err by a logger.(¢°İD8ú‚Ãï’.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ûÌ˜8ú‚Ãï’.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÊÍš’8ú‚Ãï’.
+R	java:S106"9Replace this use of System.out or System.err by a logger.(¢°İD8ú‚Ãï’.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(­ğÍ°8ú‚Ãï’.
+[	java:S125"<This block of commented-out lines of code should be removed.(—¯Ìˆÿÿÿÿÿ8ú‚Ãï’.
+V	java:S125"<This block of commented-out lines of code should be removed.(øŸöÃ8ú‚Ãï’.
+[	java:S125"<This block of commented-out lines of code should be removed.(Â¾ ‡øÿÿÿÿ8ú‚Ãï’.
+V	java:S125"<This block of commented-out lines of code should be removed.(±û8ú‚Ãï’.
+[	java:S125"<This block of commented-out lines of code should be removed.(‰ªíÍùÿÿÿÿ8ú‚Ãï’.
+]
+java:S1144"BRemove this unused private "sortCollectionUsingSortMethod" method.(Ç£Ü8ú‚Ãï’.
+]
+java:S1144"BRemove this unused private "sortCollectionUsingComparator" method.(áÉÚ°8ú‚Ãï’.
+X
+java:S1144"=Remove this unused private "sortCollectionUsingJava8" method.(Ï¿ºô8ú‚Ãï’.
+h
+java:S1144"MRemove this unused private "sortUsingKeySelectorAndComparatorVariant" method.(ùÓ8ú‚Ãï’.
+`
+java:S1144"@Remove this unused private "sortUsingComparatorReversed" method.(¦Œ •ÿÿÿÿÿ8ú‚Ãï’.

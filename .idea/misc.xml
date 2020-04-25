@@ -5,6 +5,9 @@
       <list>
         <option value="$PROJECT_DIR$/comparator/pom.xml" />
         <option value="$PROJECT_DIR$/Predicates/pom.xml" />
+        <option value="$PROJECT_DIR$/chaining-consumers/pom.xml" />
+        <option value="$PROJECT_DIR$/chaining-predicate/pom.xml" />
+        <option value="$PROJECT_DIR$/chaining-functions/pom.xml" />
       </list>
     </option>
   </component>

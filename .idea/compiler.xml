@@ -8,9 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="predicates" />
         <module name="comparator" />
+        <module name="chaining-consumers" />
+        <module name="chaining-functions" />
+        <module name="chaining-predicate" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="chaining-consumers" target="8" />
+      <module name="chaining-functions" target="8" />
+      <module name="chaining-predicate" target="8" />
       <module name="comparator" target="1.5" />
       <module name="predicates" target="1.5" />
     </bytecodeTargetLevel>

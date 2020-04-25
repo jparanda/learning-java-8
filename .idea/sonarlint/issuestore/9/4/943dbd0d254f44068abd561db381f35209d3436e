@@ -1,0 +1,10 @@
+
+v
+java:S1210"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(Æû¦„8ı‚Ãï’.
+M
+java:S1068
+"+Remove this unused "ranking" private field.(…éùùÿÿÿÿ8ı‚Ãï’.
+I
+java:S1068"'Remove this unused "age" private field.(Æ†´¦şÿÿÿÿ8ı‚Ãï’.
+E
+java:S1068"(Remove this unused "name" private field.(Ë¥¼8ı‚Ãï’.
